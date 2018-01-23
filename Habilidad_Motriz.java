@@ -1,0 +1,3 @@
+interface Habilidad_Motriz{
+
+}
