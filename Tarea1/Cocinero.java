@@ -17,4 +17,8 @@ public class Cocinero extends Persona{
     public void Habilidad_Manos(){
       System.out.println("Puedo usar mis manos!");
     }
+      
+    public void Habilidad_NULL(){
+      System.out.println("No soy vegatal!");
+    }
 }
