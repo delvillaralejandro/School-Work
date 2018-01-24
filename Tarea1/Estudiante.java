@@ -2,7 +2,7 @@ public class Estudiante extends Persona{
   String carrera;
   int matricula;
   
-    public void Habilidad_Pies(){
+    public void Habilidad_Motriz_Pies(){
       System.out.println("Puedo usar mis pies!");
 
       public void Caminar(){
@@ -14,11 +14,11 @@ public class Estudiante extends Persona{
   
     }
     
-    public void Habilidad_Manos(){
+    public void Habilidad_Motriz_Manos(){
       System.out.println("Puedo usar mis manos!");
     }
       
-    public void Habilidad_NULL(){
+    public void Habilidad_Motriz_NULL(){
       System.out.println("No soy vegetal!");
     }
 }
