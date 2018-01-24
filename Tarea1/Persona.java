@@ -2,38 +2,37 @@ class Persona implements Habilidad_Motriz{
   String nombre;
   int edad;
   boolean genero;
+  public Habilidad_Motriz Poder;
   
-  /*int Caminar(){
-    int posicion;
-    
-    posicion += 1;  
-    return posicion;
-  }*/
+  public void setNombre(String nombre){
+    this.nombre = nombre;
+  }//end setNombre
   
-  String Hablar(){
+  public void getNombre(){
+    return this.nombre;
+  }//end 
+  
+  public void getEdad(int edad){
+    this.edad = edad;
+  }//end setEdad
+  
+  public void setEdad(){
+    return this.edad;
+  }//end setEdad
+  
+  public void setGenero(boolean genero){
+    this.genero = genero;
+  }//end setGenero
+  
+  public void getGenero(){
+    return this.genro;
+  }
+  
+  public String Hablar(){
     System.out.println("Estoy hablando!");
   }//End Hablar()
   
-  void Respirar(){
+  public void Respirar(){
     return 0;
   }//end Respirar()
-  
-  public void Habilidad_Motriz_Pies(){
-    System.out.println("Puedo usar mis pies!");
-    
-    public void Caminar(){
-      System.out.println("Puedo Caminar!"); 
-    }//end Caminar()
-    public void Brincar(){
-      System.out.pritnln("Puedo brincar");
-    }//end Brincar()
-  }//End Habiliad_Motriz_Pies
-  
-  public void Habilidad_Motriz_Manos(){
-     System.out.println("Puedo suar mis manos!");
-  }//end Habilidad_Motriz_Manos()
-  
-  public void Habilidad_Motriz_NULL(){
-      System.out.println("No soy Vegetal!");
-  }//end Habilidad_Motriz_NULL
 }//End Persona
