@@ -22,7 +22,7 @@ public class Estudiante extends Persona{
     public void Habilidad_Motriz_NULL(){
       System.out.println("No soy vegetal!");
     }//end Habilidad_Motriz_NULL
-}
+}//end Estudiante
 
   
   public static void main(String args[]){
@@ -32,4 +32,4 @@ public class Estudiante extends Persona{
     student.Habilidad_Manos();
     student.Habilidad_NULL();
     
-  }
+  }//end main
