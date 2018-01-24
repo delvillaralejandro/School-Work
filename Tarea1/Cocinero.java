@@ -21,3 +21,11 @@ public class Cocinero extends Persona{
     System.out.println("No soy vegetal!");
   }//end Habilidad_Motriz_NULL
 }//end Cocinero class
+
+public static void main(String args[]){
+  Cocinero chef  = new Cocinero();
+  
+  chef.Habilidad_Motriz_Pies();
+  chef.Habilidad_Motriz_Manos();
+  chef.Habilidad_Motriz_NULL();
+}//end main
