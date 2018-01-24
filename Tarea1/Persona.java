@@ -2,7 +2,7 @@ class Persona implements Habilidad_Motriz{
   String nombre;
   int edad;
   boolean genero;
-  public Habilidad_Motriz Poder;
+  public Habilidad_Motriz_Poder;
   
   public void setNombre(String nombre){
     this.nombre = nombre;
