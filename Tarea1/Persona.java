@@ -15,6 +15,10 @@ class Persona{
     
   }
   
+  void Respirar(){
+    return 0;
+  }
+  
   void Brincar(){}
   
   
