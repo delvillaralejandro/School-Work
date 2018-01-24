@@ -7,20 +7,21 @@ public class Estudiante extends Persona{
 
       public void Caminar(){
        System.out.println("Puedo Caminar como Estudiante!"); 
-      }
+      }//end Caminar
 
       public void Brincar(){
         System.out.pritnln("Puedo brincar como Estudiante");
+      }//end Brincar
   
-    }
+    }//end Habilidad_Motriz_Pies
     
     public void Habilidad_Motriz_Manos(){
       System.out.println("Puedo usar mis manos!");
-    }
+    }//end Habilidad_Motriz_Manos
       
     public void Habilidad_Motriz_NULL(){
       System.out.println("No soy vegetal!");
-    }
+    }//end Habilidad_Motriz_NULL
 }
 
   
