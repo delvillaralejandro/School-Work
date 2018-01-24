@@ -1,4 +1,4 @@
-public class Handicapped extends Persona implements Habilidad_Motriz{
+public class Handicapped extends Persona{
     public void Habilidad_Pies(){
       System.out.println("No Puedo usar mis pies!");
 
