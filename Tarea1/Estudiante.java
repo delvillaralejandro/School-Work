@@ -17,4 +17,18 @@ public class Estudiante extends Persona{
     public void Habilidad_Manos(){
       System.out.println("Puedo usar mis manos!");
     }
+      
+    public void Habilidad_NULL(){
+      System.out.println("No soy vegetal!");
+    }
 }
+
+  
+  public static void main(String args[]){
+    Estudiante student = new Estudiante();
+    
+    student.Habilidad_Pies();
+    student.Habilidad_Manos();
+    student.Habilidad_NULL();
+    
+  }
