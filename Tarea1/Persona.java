@@ -19,7 +19,7 @@ class Persona implements Habilidad_Motriz{
     return 0;
   }
   
-  public void Habilidad_Pies(){
+  public void Habilidad_Motriz_Pies(){
       System.out.println("Puedo usar mis pies!");
 
       public void Caminar(){
@@ -31,9 +31,12 @@ class Persona implements Habilidad_Motriz{
   
   }
     
-    public void Habilidad_Manos(){
+    public void Habilidad_Motriz_Manos(){
       System.out.println("Puedo suar mis manos!");
     }
   
+    public void Habilidad_Motriz_NULL(){
+      System.out.println("No soy Vegetal!");
+    }
   
 }
