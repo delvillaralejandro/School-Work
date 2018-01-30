@@ -1,22 +1,35 @@
-class Persona implements Habilidad_Motriz{
+public abstract class Persona{
+  public HabilidadMotriz hm;
+  
   String nombre;
   int edad;
   boolean genero;
-  public Habilidad_Motriz_Poder;
+  
+  public void Mover(HabilidadMotriz h){
+    this.hm = h;
+  }//Mover
+  
+  public HabilidadMotriz getMovimiento(){
+    return hm;
+  }//end getMovimiento()
+  
+  public void Movimiento(){
+    
+  }//end mover
   
   public void setNombre(String nombre){
     this.nombre = nombre;
   }//end setNombre
   
   public void getNombre(){
-    return this.nombre;
+    System.out.println(this.nombre);
   }//end 
   
   public void getEdad(int edad){
     this.edad = edad;
   }//end setEdad
   
-  public void setEdad(){
+  public int setEdad(){
     return this.edad;
   }//end setEdad
   
@@ -25,14 +38,14 @@ class Persona implements Habilidad_Motriz{
   }//end setGenero
   
   public void getGenero(){
-    return this.genro;
-  }
+    System.out.println(this.genero);
+  }//end getGenero
   
-  public String Hablar(){
+  /*public String Hablar(){
     System.out.println("Estoy hablando!");
-  }//End Hablar()
+  }//End Hablar()*/
   
-  public void Respirar(){
-    return 0;
-  }//end Respirar()
+  /*public String Respirar(){
+    System.out.println("Estoy respirando!");
+  }//end Respirar()*/
 }//End Persona
