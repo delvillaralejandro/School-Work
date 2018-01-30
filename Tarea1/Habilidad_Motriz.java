@@ -1,3 +1,3 @@
-public interface Habilidad_Motriz{
+public interface HabilidadMotriz{
   public void Mover();
 }
