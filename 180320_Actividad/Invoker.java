@@ -1,17 +1,16 @@
 
 public class Invoker {
 	public Command command;
-	Lights lites = new Lights();
 	
-	public void setCommand(Command command) {
-		this.command = command;
+	public void setCommand(Command cmd) {
+		this.command = cmd;
 	}
 	
-	public void buttonPress(Command command){
-		lites.On();
+	public void buttonPress(){
+		command.execute();
 	}
 	
-	public void buttonDepress(Command command) {
-		lites.Off();
+	public void buttonDepress() {
+		command.undo();
 	}
 }

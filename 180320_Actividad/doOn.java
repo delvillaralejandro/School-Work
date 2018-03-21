@@ -1,16 +1,20 @@
 
 public class doOn implements Command{
-	Lights leds = new Lights();
+	Lights lites;
+	
+	public doOn(Lights l) {
+		this.lites = l;
+	}
 	
 	@Override
 	public void execute() {
-		leds.On();
+		lites.On();
 		
 	}
 
 	@Override
 	public void undo() {
-		leds.Off();
+		lites.Off();
 		
 	}
 

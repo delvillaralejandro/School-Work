@@ -1,15 +1,20 @@
 
 public class doOff implements Command{
-	Lights leds = new Lights();
+	Lights lites;
+	
+	public doOff(Lights l) {
+		this.lites = l; 
+	}
+	
 	@Override
 	public void execute() {
-		leds.Off();
+		lites.Off();
 		
 	}
 
 	@Override
 	public void undo() {
-		leds.On();
+		lites.On();
 		
 	}
 }

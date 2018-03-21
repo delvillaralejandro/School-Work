@@ -1,20 +1,21 @@
 
-public class doOpen implements Command{
+public class doClose implements Command{
 	GarageDoor gd;
 	
-	public doOpen(GarageDoor g) {
+	public doClose(GarageDoor g) {
 		this.gd = g;
 	}
-	
+
 	@Override
 	public void execute() {
-		gd.Open();
+		gd.Close();
 		
 	}
 
 	@Override
 	public void undo() {
-		gd.Close();
+		gd.Open();
+		
 	}
 
 }

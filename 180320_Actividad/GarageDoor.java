@@ -1,5 +1,6 @@
 
 public class GarageDoor {
+	
 	public void Open() {
 		System.out.println("Garage Door is opening...");
 	}
